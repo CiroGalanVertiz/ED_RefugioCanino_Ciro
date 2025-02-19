@@ -5,13 +5,13 @@ public class MainRefugioCanino {
 
     public static void main(String[] args) {
         
-        System.out.println("Bienvenido a la base de datos del refugio");
+        System.out.println("Bienvenido al refugio canino Torres");
         
         // Crear una instancia del refugio
         RefugioCanino refugio = new RefugioCanino();
 
         // Agregar algunos perros al refugio
-        refugio.agregarPerro("Max", "Golden retriever");
+        refugio.agregarPerro("Max", "Labrador);
         refugio.agregarPerro("Bella", "Pastor Alemán");
         refugio.agregarPerro("Ciro", "Border collie");
 
